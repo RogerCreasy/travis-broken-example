@@ -1,4 +1,5 @@
 <?PHP
+namespace RogerCreasy\travisbrokenexample;
 
 class TravisBrokenExample
 {
