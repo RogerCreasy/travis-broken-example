@@ -1,9 +1,11 @@
 <?php
 
-class Test extends PHPUnit_Framework_TestCase
+use  TravisBrokenExample;
+class Test extends \PHPUnit_Framework_TestCase
 {
 	public function testOnePlusOne() {
-		$this->assertEquals(1+1,2);
+        $expected = TravisBrokenExample::tester();
+		$this->assertEquals(1+1,$expected);
   	}
 }
 
