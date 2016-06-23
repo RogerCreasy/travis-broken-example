@@ -1,6 +1,6 @@
 <?php
 
-use  TravisBrokenExample;
+use TravisBrokenExample;
 class TestTravisBrokenExample extends \PHPUnit_Framework_TestCase
 {
 	public function testOnePlusOne() {
@@ -8,4 +8,3 @@ class TestTravisBrokenExample extends \PHPUnit_Framework_TestCase
 		$this->assertEquals(1+1,2);
   	}
 }
-
